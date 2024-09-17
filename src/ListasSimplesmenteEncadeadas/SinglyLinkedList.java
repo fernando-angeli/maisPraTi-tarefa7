@@ -1,4 +1,4 @@
-package ListasSimplesmenteEncadeadas.SinglyLinkedList;
+package ListasSimplesmenteEncadeadas;
 
 import ListasSimplesmenteEncadeadas.Exercicio_1.Task;
 
@@ -61,6 +61,7 @@ public class SinglyLinkedList {
         }
         throw new IndexOutOfBoundsException("Index não localizado.");
     }
+
     public Object remove(int index){
         Node current = this.head;
         if(this.head == null) throw new IndexOutOfBoundsException("A lista está vazia.");

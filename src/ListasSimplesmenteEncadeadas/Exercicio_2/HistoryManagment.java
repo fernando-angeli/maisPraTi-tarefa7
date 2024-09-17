@@ -1,5 +1,5 @@
 package ListasSimplesmenteEncadeadas.Exercicio_2;
-import ListasSimplesmenteEncadeadas.SinglyLinkedList.SinglyLinkedList;
+import ListasSimplesmenteEncadeadas.SinglyLinkedList;
 
 import java.time.LocalDateTime;
 

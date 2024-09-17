@@ -1,5 +1,5 @@
 package ListasSimplesmenteEncadeadas.Exercicio_1;
-import ListasSimplesmenteEncadeadas.SinglyLinkedList.SinglyLinkedList;
+import ListasSimplesmenteEncadeadas.SinglyLinkedList;
 import java.util.Scanner;
 
 public class TaskManagement {
