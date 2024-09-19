@@ -1,13 +1,13 @@
-package ListasDuplamenteEncadeadas.Exercicio_4.Exercicio_4;
+package ListasDuplamenteEncadeadas.Exercicio_4;
 
-import ListasDuplamenteEncadeadas.Exercicio_4.DoublyLinkedList;
+import ListasDuplamenteEncadeadas.DoublyLinkedList;
 
-public class TextEditorWithDoublyLinkedList {
+public class TextEditor_4 {
 
     private String text;
     private DoublyLinkedList actions;
 
-    public TextEditorWithDoublyLinkedList() {
+    public TextEditor_4() {
         this.text = "";
         this.actions = new DoublyLinkedList();
     }

@@ -1,9 +1,9 @@
 package ListasSimplesmenteEncadeadas.Exercicio_3;
 
-public class TextEditorWithSinglyLinkedListManagement {
+public class TextEditorManagement_3 {
     public static void main(String[] args) {
 
-        TextEditorWithSinglyLinkedList textEditor = new TextEditorWithSinglyLinkedList();
+        TextEditor_3 textEditor = new TextEditor_3();
 
         textEditor.updateText("Teste primeiro texto.");
         textEditor.updateText("Teste segundo texto.");

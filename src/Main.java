@@ -1,5 +1,7 @@
-import ListasDuplamenteEncadeadas.Exercicio_4.Exercicio_4.TextEditorWithDoublyLinkedListManagement;
-import ListasSimplesmenteEncadeadas.Exercicio_3.TextEditorWithSinglyLinkedListManagement;
+import ListasDuplamenteEncadeadas.Exercicio_4.TextEditorManagement_4;
+import ListasDuplamenteEncadeadas.Exercicio_5.CardGameManagement;
+import ListasSimplesmenteEncadeadas.Exercicio_2.HistoryManagment;
+import ListasSimplesmenteEncadeadas.Exercicio_3.TextEditorManagement_3;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,11 +18,16 @@ public class Main {
 
         /*3. Implemente um sistema de controle de reversão (undo) para uma aplicação de
         edição de texto. Use uma lista simplesmente encadeada*/
-        //TextEditorWithSinglyLinkedListManagement.main(args);
+        //TextEditorManagement_3.main(args);
 
         /*4. Implemente um editor de texto simples onde as operações de desfazer (undo) e
         refazer (redo) são gerenciadas por uma lista duplamente encadeada.*/
-        TextEditorWithDoublyLinkedListManagement.main(args);
+        //TextEditorManagement_4.main(args);
+
+        /*5. Implemente um jogo simples de cartas onde a mão do jogador é representada por
+        uma lista duplamente encadeada. Permita que o jogador adicione, remova, e reorganize
+        as cartas na mão.*/
+        CardGameManagement.main(args);
 
     }
 }

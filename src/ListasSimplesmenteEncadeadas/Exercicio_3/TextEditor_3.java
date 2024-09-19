@@ -1,13 +1,13 @@
 package ListasSimplesmenteEncadeadas.Exercicio_3;
 
-import ListasSimplesmenteEncadeadas.SinglyLinkedList.SinglyLinkedList;
+import ListasSimplesmenteEncadeadas.SinglyLinkedList;
 
-public class TextEditor {
+public class TextEditor_3 {
 
     private String text;
     private SinglyLinkedList actions;
 
-    public TextEditor() {
+    public TextEditor_3() {
         this.text = "";
         this.actions = new SinglyLinkedList();
     }

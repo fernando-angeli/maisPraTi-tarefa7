@@ -1,9 +1,9 @@
-package ListasDuplamenteEncadeadas.Exercicio_4.Exercicio_4;
+package ListasDuplamenteEncadeadas.Exercicio_4;
 
-public class TextEditorWithDoublyLinkedListManagement {
+public class TextEditorManagement_4 {
     public static void main(String[] args) {
 
-        TextEditorWithDoublyLinkedList textEditor = new TextEditorWithDoublyLinkedList();
+        TextEditor_4 textEditor = new TextEditor_4();
 
         textEditor.add("Primeiro texto");
         textEditor.add("Segundo texto");
