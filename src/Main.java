@@ -1,7 +1,4 @@
-import ListasDuplamenteEncadeadas.Exercicio_4.TextEditorManagement_4;
-import ListasDuplamenteEncadeadas.Exercicio_5.CardGameManagement;
-import ListasSimplesmenteEncadeadas.Exercicio_2.HistoryManagment;
-import ListasSimplesmenteEncadeadas.Exercicio_3.TextEditorManagement_3;
+import Filas.Exercicio_7.PrintManager;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,7 +24,21 @@ public class Main {
         /*5. Implemente um jogo simples de cartas onde a mão do jogador é representada por
         uma lista duplamente encadeada. Permita que o jogador adicione, remova, e reorganize
         as cartas na mão.*/
-        CardGameManagement.main(args);
+        //CardGameManagement.main(args);
+
+        /*6. Crie um simulador de fila de atendimento em um banco. Utilize uma fila para gerenciar
+        os clientes que aguardam atendimento e implemente a lógica para chamar o próximo
+        cliente.*/
+        //BankQueueManagement.main(args);
+
+        /*7. Implemente um sistema de gerenciamento de impressões onde os trabalhos de
+        impressão são enfileirados e processados na ordem em que chegam. Use uma fila para
+        armazenar os trabalhos de impressão.*/
+        PrintManager.main(args);
+
+        /*8. Implemente uma fila que simula a fila de processos prontos para execução em um
+        sistema operacional. Permita que novos processos sejam adicionados e que o processo
+        mais antigo seja removido para execução.*/
 
     }
 }
