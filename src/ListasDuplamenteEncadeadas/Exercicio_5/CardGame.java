@@ -4,7 +4,7 @@ import ListasDuplamenteEncadeadas.DoublyLinkedList;
 
 public class CardGame {
 
-    DoublyLinkedList cards;
+    private DoublyLinkedList cards;
 
     public CardGame(){
         this.cards = new DoublyLinkedList();
