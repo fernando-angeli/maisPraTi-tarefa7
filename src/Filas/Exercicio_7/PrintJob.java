@@ -15,13 +15,13 @@ public class PrintJob {
         this.instant = LocalDateTime.now();
     }
 
+    public String getNameDocument() {
+        return nameDocument;
+    }
+
     @Override
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss 'em' dd/MM/yyyy");
-        return "Documento: " + nameDocument + ", páginas: " + numberOfPages + ", inclusão: " + instant.format(formatter)+"\n";
-    }
-
-    public String getNameDocument() {
-        return nameDocument;
+        return "Documento: " + this.nameDocument + ", páginas: " + this.numberOfPages + ", inclusão: " + this.instant.format(formatter)+"\n";
     }
 }

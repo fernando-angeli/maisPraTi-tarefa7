@@ -10,6 +10,10 @@ public class Queue {
             this.data = data; //Dado armazenado
             this.next = null; //Proximo nó
         }
+
+        public Object getData() {
+            return data;
+        }
     }
 
     private Node first;
@@ -38,8 +42,7 @@ public class Queue {
     }
 
     public Object peek() {
-        if (this.first == null) return null;
-        return first.data;
+        return this.first != null ? first.data : null;
     }
 
     public boolean isEmpty() {
@@ -64,5 +67,18 @@ public class Queue {
             System.out.print(current.data);
             current = current.next;
         }
+    }
+
+    public void printInline(){
+        if(this.first == null) throw new IndexOutOfBoundsException("A fila está vazia.");
+        Node current = this.first;
+        System.out.print("Tamanho da fila: " + size() + " | ");
+        while(current != null){
+            System.out.print(current.data);
+            current = current.next;
+            if(current != null)
+                System.out.print(" - ");
+        }
+        System.out.println(" |");
     }
 }

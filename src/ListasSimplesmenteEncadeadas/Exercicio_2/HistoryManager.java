@@ -3,7 +3,7 @@ import ListasSimplesmenteEncadeadas.SinglyLinkedList;
 
 import java.time.LocalDateTime;
 
-public class HistoryManagment {
+public class HistoryManager {
     public static void main(String[] args) {
 
 

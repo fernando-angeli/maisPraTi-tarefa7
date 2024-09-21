@@ -1,6 +1,7 @@
 package Filas.Exercicio_6;
 
 import Filas.Queue;
+import org.w3c.dom.Node;
 
 public class BankQueue {
     private Queue queue;
@@ -9,16 +10,16 @@ public class BankQueue {
         this.queue = new Queue();
     }
 
-    public void joinQueue(String password){
+    public void joinQueue(ServicePassword password){
         queue.enqueue(password);
     }
 
-    public String leaveQueue(){
-        return (String) queue.dequeue();
+    public ServicePassword leaveQueue(){
+        return (ServicePassword) queue.dequeue();
     }
 
-    public String nextTheQueue(){
-        return (String) queue.peek();
+    public ServicePassword nextTheQueue(){
+        return (ServicePassword) queue.peek();
     }
 
     public int sizeQueue(){
@@ -26,7 +27,7 @@ public class BankQueue {
     }
 
     public void printQueue(){
-        queue.print();
+        queue.printInline();
     }
 
 }

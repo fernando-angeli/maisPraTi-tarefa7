@@ -1,6 +1,6 @@
 package ListasSimplesmenteEncadeadas.Exercicio_3;
 
-public class TextEditorManagement_3 {
+public class TextEditorManager_3 {
     public static void main(String[] args) {
 
         TextEditor_3 textEditor = new TextEditor_3();

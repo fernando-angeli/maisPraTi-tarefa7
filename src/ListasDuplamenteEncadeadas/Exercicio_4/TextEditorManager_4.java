@@ -1,6 +1,6 @@
 package ListasDuplamenteEncadeadas.Exercicio_4;
 
-public class TextEditorManagement_4 {
+public class TextEditorManager_4 {
     public static void main(String[] args) {
 
         TextEditor_4 textEditor = new TextEditor_4();

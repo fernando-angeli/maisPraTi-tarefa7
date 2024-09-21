@@ -21,7 +21,10 @@ public class PrintManager {
             printQueue.printJob();
             printQueue.printJobQueue();
             printQueue.printJob();
+
+            // deve gerar uma exception pois a fila esta vazia
             printQueue.printJobQueue();
+
         } catch (Exception e){
             System.out.println("ERROR: " + e.getMessage());
         }

@@ -29,7 +29,6 @@ public class PrintQueue {
 
     public void printJobQueue(){
         System.out.println("Fila de impressão: " + queue.size() + " arquivo(s) em espera.");
-        queue.print();
+        if(!queue.isEmpty()) queue.print();
     }
-
 }

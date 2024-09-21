@@ -2,7 +2,7 @@ package ListasSimplesmenteEncadeadas.Exercicio_1;
 import ListasSimplesmenteEncadeadas.SinglyLinkedList;
 import java.util.Scanner;
 
-public class TaskManagement {
+public class TaskManager {
    
     public static void main(String[] args) {
         SinglyLinkedList singlyLinkedListTasks = new SinglyLinkedList();
